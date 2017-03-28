@@ -1,0 +1,16 @@
+﻿生成启动时间为 2017/3/6 14:53:19。
+     1>项目“E:\bin_change\my_cifar\my_cifar\my_cifar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\bin_change\my_cifar\Debug\my_cifar.exe" /INCREMENTAL /NOLOGO opencv_calib3d2412d.lib opencv_contrib2412d.lib opencv_core2412d.lib opencv_features2d2412d.lib opencv_flann2412d.lib opencv_gpu2412d.lib opencv_highgui2412d.lib opencv_imgproc2412d.lib opencv_legacy2412d.lib opencv_ml2412d.lib opencv_nonfree2412d.lib opencv_objdetect2412d.lib opencv_ocl2412d.lib opencv_photo2412d.lib opencv_stitching2412d.lib opencv_superres2412d.lib opencv_ts2412d.lib opencv_video2412d.lib opencv_videostab2412d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\bin_change\my_cifar\Debug\my_cifar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\bin_change\my_cifar\Debug\my_cifar.lib" /MACHINE:X86 Debug\BinaryDataset.obj
+         Debug\main.obj
+         my_cifar.vcxproj -> E:\bin_change\my_cifar\Debug\my_cifar.exe
+     1>已完成生成项目“E:\bin_change\my_cifar\my_cifar\my_cifar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.01
